@@ -1,0 +1,127 @@
+body,p,h3{
+	margin:0;
+}
+body{
+	font-family: '微软雅黑','arial';
+	background-color: #f1f1f1;
+}
+input{
+	padding: 0;
+	border: none;
+}
+input:focus{
+	outline: none;
+}
+#header{
+	height: 65px;
+	background: #333;
+	line-height: 65px;
+}
+#header p{	
+	height: 65px;
+	width: 988px;
+	margin:0 auto;
+	color:#fff;
+	font-size: 22px;
+	font-family: 
+}
+#wrap {
+	width: 864px;
+	margin:62px auto;
+	background-color: #fff;
+	position: relative;
+	padding: 0 97px;
+	border-top:1px solid #fff;
+
+}
+#wrap #email{
+	width: 145px;
+	height: 31px;
+	left: 0;
+	top:-32px;
+	background-color: #eb1c24;
+	line-height: 31px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	position: absolute;
+}
+h3{
+	margin-top:38px;
+	height: 23px;
+	line-height: 23px;
+	font-size: 15px;
+	color:#333333;
+}
+.info{
+	height: 45px;
+	line-height: 45px;
+	font-size: 12px;
+	color:#999999;
+}
+.email{
+	height: 64px;
+	line-height: 64px;
+	position: relative;
+}
+.email span{
+	color:#999999;
+}
+.email input{
+	width: 292px;
+	height: 32px;
+	border: 1px solid #999999;
+	padding:0 20px;
+}
+.input{
+	position: absolute;
+	left: 137px;
+	top:0;
+	color: #ff0000;
+}
+.input .tips{
+	position: absolute;
+	left:32px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 12px;
+	color: #dacfcf;
+	top:17px;
+	z-index:1;
+}
+.error{
+	padding: 5px 10px 5px 20px;
+	line-height: 12px;
+	border: 1px solid #c5c5c5;
+	background-color: #f8f9d6;
+	border-radius: 4px;
+	position: absolute;
+	font-size: 12px;
+	color: #ff0000;
+	left: 10px;
+	top:45px;
+	display: none;
+	z-index: 5;
+	text-align: left;
+}
+.line{
+	height: 100px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.level{
+	height: 12px;
+	margin-left: 137px;
+}
+#input3{
+	margin-top: 20px;
+}
+.level>span{
+	width: 82px;
+	height: 12px;
+	margin-left: 1px;
+	float: left;
+	background-color: #eeeeee;
+	font-size: 12px;
+	line-height: 12px;
+	text-align: center;
+}

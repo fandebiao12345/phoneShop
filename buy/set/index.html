@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="bs/js/jquery-2.0.3.js"></script>
+</head>
+<body>
+	<header id="header">
+		<p>HUAWEI&nbsp|华为</p>
+	</header>
+	<section id="wrap">
+		<div id="email">邮箱注册</div>
+		<h3>华为账号</h3>
+		<p class="info">输入邮件地址作为您的华为帐号，用于登录、重设密码、验证身份。</p>
+		<form action="" class="line">
+			<div class="email">
+				<span>邮箱地址：</span>
+				<div class="input">
+					<div class="tips" id="tips">5~30个字符</div>
+					<input type="text" maxlength="30" id="input">
+					<div class="error" id="error"></div>
+				</div>
+			</div>
+		</form>
+		<h3>设置登陆密码</h3>
+		<p class="info">密码由 8-32 位字符组成，需至少包含一个大写字母、一个小写字母和一个数字，建议不与其他密码相同</p>
+		<form action="">
+			<div class="email">
+				<span>密码</span>
+				<div class="input">
+					<div class="tips passTips1">请输入8~30个字符</div>
+					<input type="password" maxlength="30" class="password1">
+					<div class="error error1">密码由 8-30 位字符组成，需至少包含一个大写字母、一个小写字母和一个数字，建议不与其他密码相同</div>
+					<div class="error error2">请输入 8~30 个字符</div>
+					<div class="error error3">请输入你的密码</div>
+				</div>
+				<div class="level"><span class="ruo">弱</span><span class="zhong">中</span><span class="qiang">强</span></div>
+			</div>
+		</form>
+		<form action="" class="line">
+			<div class="email" id='input3'>
+				<span>确认密码</span>
+				<div class="input">
+					<div class="tips passTips2">请输入8~30个字符</div>
+					<input type="password" maxlength="30" class="password2">
+					<div class="error error4">两次密码输入不一致</div>
+				</div>
+			</div>
+		</form>
+		
+				
+	</section>
+	<script src="js/index.js"></script>
+</body>
+</html>
